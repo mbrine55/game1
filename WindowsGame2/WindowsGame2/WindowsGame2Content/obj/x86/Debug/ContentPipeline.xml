@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ball.xnb</Output>
+      <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ball.xnb</Output>
       <Time>2014-02-15T15:20:54.3161152-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Untitled.xnb</Output>
+      <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Untitled.xnb</Output>
       <Time>2014-02-16T19:23:29.012163-05:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\field.xnb</Output>
+      <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\field.xnb</Output>
       <Time>2014-02-16T20:02:27.7598167-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -34,10 +34,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

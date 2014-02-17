@@ -7,3 +7,12 @@ C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame
 C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ball.xnb
 C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Untitled.xnb
 C:\Users\Mitchell\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\field.xnb
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ball.xnb
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Untitled.xnb
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\field.xnb
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\WindowsGame2.exe
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\WindowsGame2.pdb
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.exe
+C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.pdb

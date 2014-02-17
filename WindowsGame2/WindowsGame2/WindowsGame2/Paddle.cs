@@ -13,13 +13,16 @@ namespace WindowsGame2
     {
         Vector2 position;
         Vector2 motion;
-        float paddleSpeed = 8f;
+        public float paddleSpeed = 8f;
 
         KeyboardState keyboardState;
         GamePadState gamePadState;
 
         Texture2D texture;
         Rectangle screenBounds;
+
+        bool jumping = false;
+        float startY, jumpSpeed = 0;
 
         public Player(Texture2D texture, Rectangle screenBounds)
         {
@@ -45,6 +48,26 @@ namespace WindowsGame2
                 gamePadState.IsButtonDown(Buttons.DPadRight))
                 motion.X = 1;
 
+            if (jumping)
+            {
+                position.Y += jumpSpeed;
+                jumpSpeed += 1;
+                if (position.Y >= startY)
+                {
+                    position.Y = startY;
+                    jumping = false;
+                }
+            }
+            else
+            {
+                if (keyboardState.IsKeyDown(Keys.Space))
+                {
+                    jumping = true;
+                    jumpSpeed = -14;
+                }
+            }
+
+            motion.Y *= paddleSpeed;
             motion.X *= paddleSpeed;
             position += motion;
             LockPaddle();
@@ -62,6 +85,7 @@ namespace WindowsGame2
         {
             position.X = 150;
             position.Y = 250;
+            startY = position.Y;
         }
 
         public void Draw(SpriteBatch spriteBatch)

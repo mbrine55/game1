@@ -14,7 +14,7 @@ namespace WindowsGame2
         Vector2 position;
         Rectangle bounds;
         float ballSpeed;
-        const float ballStartSpeed = 4;
+        const float ballStartSpeed = 9.8f;
 
         Texture2D texture;
         Rectangle screenBounds;
@@ -70,7 +70,7 @@ namespace WindowsGame2
             motion = new Vector2(0, 5);
             motion.Normalize();
 
-            position.Y = 175;
+            position.Y = 100;
             position.X = 600;
 
             ballSpeed = ballStartSpeed;
@@ -94,7 +94,7 @@ namespace WindowsGame2
             if (paddleLocation.Intersects(ballLocation))
             {
                 position.Y = paddleLocation.Y - texture.Height;
-                motion.Y *= -1;
+                motion.X = 1;
             }
         }
 
