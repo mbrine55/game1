@@ -22,6 +22,8 @@ namespace WindowsGame2
         Ball ball;
         Rectangle screenRectangle;
         Field field;
+        PlayerGoal playerGoal;
+        OpponentGoal opponentGoal;
         
         public Game1()
         {
@@ -69,6 +71,11 @@ namespace WindowsGame2
             tempTexture = Content.Load<Texture2D>("field");
             field = new Field(tempTexture, screenRectangle);
 
+            tempTexture = Content.Load<Texture2D>("goal");
+            playerGoal = new PlayerGoal(tempTexture, screenRectangle);
+
+            tempTexture = Content.Load<Texture2D>("goal");
+            opponentGoal = new OpponentGoal(tempTexture, screenRectangle);
 
             StartGame();
             // TODO: use this.Content to load your game content here
@@ -79,6 +86,8 @@ namespace WindowsGame2
             paddle.SetInStartPosition();
             ball.SetInStartPosition(paddle.GetBounds());
             field.SetInStartPosition();
+            playerGoal.SetInStartPosition();
+            opponentGoal.SetInStartPosition();
 
         }
 
@@ -107,9 +116,6 @@ namespace WindowsGame2
             ball.PaddleCollision(paddle.GetBounds());
             ball.FieldCollision(field.GetBounds());
 
-            if (ball.OffBottom())
-                StartGame();
-
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -128,7 +134,8 @@ namespace WindowsGame2
             field.Draw(spriteBatch);
             paddle.Draw(spriteBatch);
             ball.Draw(spriteBatch);
-
+            playerGoal.Draw(spriteBatch);
+            opponentGoal.Draw(spriteBatch);
 
             spriteBatch.End();
 

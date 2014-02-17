@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ball.xnb</Output>
-      <Time>2014-02-15T15:20:54.3161152-05:00</Time>
+      <Time>2014-02-17T09:55:39.6577475-05:00</Time>
     </Item>
     <Item>
       <Source>Untitled.png</Source>
@@ -27,6 +27,15 @@
       <Options>None</Options>
       <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\field.xnb</Output>
       <Time>2014-02-16T20:02:27.7598167-05:00</Time>
+    </Item>
+    <Item>
+      <Source>goal.png</Source>
+      <Name>goal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mitchell\game1\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\goal.xnb</Output>
+      <Time>2014-02-17T09:44:32.2185722-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
